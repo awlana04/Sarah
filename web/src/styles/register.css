@@ -1,8 +1,8 @@
-div.register {
+div#page-register div.register {
   height: min(80%);
 }
 
-div.register h1 {
+div#page-register div.register h1 {
   text-align: center;
   padding-top: 1.4rem;
 
@@ -10,7 +10,7 @@ div.register h1 {
   font-size: 3.5rem;
 }
 
-div .box {
+div#page-register div.register div.box {
   display: flex;
   flex-direction: column;
 
@@ -23,12 +23,12 @@ div .box {
   padding: 2.5rem 0 6rem;
 }
 
-form label {
+div#page-register div.register div.box form label {
   font-weight: 600;
   font-size: 1.2rem;
 }
 
-.inputs {
+div#page-register div.register div.box form input.inputs {
   background: #ffffff;
 
   border: none;
@@ -48,7 +48,7 @@ form label {
   padding-left: 0.4rem;
 }
 
-form button {
+div#page-register div.register form button {
   border: none;
   border-radius: 7px;
 
@@ -62,7 +62,7 @@ form button {
   font-size: 1.5rem;
 }
 
-.buttons {
+div#page-register div.register div.box div.buttons {
   display: flex;
   justify-content: center;
 
@@ -72,43 +72,55 @@ form button {
 /* Desktop version */
 
 @media (min-width: 768px) {
-  .register h1 {
+  div#page-register div.register h1 {
     margin-bottom: 6rem;
     padding-top: 3rem;
 
     font-size: 5rem;
   }
-  form {
-    display: flex;
-    justify-content: center;
-  }
-  .box {
+
+  div#page-register div.register div.box {
     margin: 0 35rem;
     padding: 2.8rem 0 24rem;
   }
-  .buttons {
-    position: absolute;
 
-    margin-top: 38rem;
+  div#page-register div.register form {
+    display: flex;
+    justify-content: center;
   }
-  form label {
+  
+  
+  div#page-register div.register div.box form label {
     font-size: 2rem;
   }
-  .inputs {
+  
+  div#page-register div.register div.box form input.inputs {
     width: 40rem;
     height: 4rem;
-
+    
     margin-bottom: 2.5rem;
   }
+  
+  div#page-register div.register div.box form div.left-inputs {
+    margin-right: 6rem;
+    padding-top: 6rem;
+
+    position: absolute;
+    justify-content: space-between;
+  }
+  
+  div#page-register div.register div.box form .right-inputs {
+    margin-left: 6rem;
+    padding-top: 6rem;
+  }
+  
   ::-webkit-input-placeholder {
     font-size: 1.8rem;
   }
-  .left-inputs {
-    margin-right: 6rem;
-    padding-top: 6rem;
-  }
-  .right-inputs {
-    margin-left: 6rem;
-    padding-top: 6rem;
+  
+  div#page-register div.register div.box form div.buttons {
+    position: absolute;
+      
+    margin-top: 38rem;
   }
 }
