@@ -1,0 +1,81 @@
+.login {
+  background: linear-gradient(to right, #e6f7fe 0%, #dcf7c5 100%);
+  height: min(90%);
+
+  text-align: center;
+}
+.login h1 {
+  padding-top: 10rem;
+
+  font-weight: 700;
+  font-size: 4.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 10rem;
+}
+
+.inputs {
+  background: #ffffff;
+
+  border: none;
+  border-radius: 7px;
+  border-bottom: 0.2rem solid #000;
+
+  width: 26rem;
+  height: 3.5rem;
+
+  margin-bottom: 2rem;
+
+  cursor: pointer;
+}
+::-webkit-input-placeholder {
+  color: #007aff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding-left: 0.8rem;
+}
+.btn {
+  margin-top: 6rem;
+
+  width: 22rem;
+  height: 4.5rem;
+
+  background: #158bcc;
+  color: white;
+
+  border: none;
+  border-radius: 7px;
+}
+
+/* Desktop version */
+
+@media (min-width: 768px) {
+  .login h1 {
+    padding-top: 16rem;
+    font-size: 7rem;
+  }
+  form {
+    margin-top: 12rem;
+  }
+  .email,
+  .password {
+    width: 40rem;
+    height: 4rem;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.6rem;
+  }
+  .btn {
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    width: 34rem;
+    height: 5rem;
+  }
+}

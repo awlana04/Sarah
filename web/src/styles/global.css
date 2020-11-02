@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+  
+  background: linear-gradient(to right, #e6f7fe 0%, #dcf7c5 100%);
+  background-size: 300%;
+  animation: colors 10s infinite;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+:root {
+  font-size: 62.5%;
+}

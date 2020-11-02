@@ -1,0 +1,114 @@
+div.register {
+  height: min(80%);
+}
+
+div.register h1 {
+  text-align: center;
+  padding-top: 1.4rem;
+
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+div .box {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #d8d8d8;
+
+  margin: 2.5rem;
+  padding: 2.5rem 0 6rem;
+}
+
+form label {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.inputs {
+  background: #ffffff;
+
+  border: none;
+  border-radius: 7px;
+
+  width: 20rem;
+  height: 2.6rem;
+
+  margin-bottom: 0.6rem;
+
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #007aff;
+  font-weight: 500;
+  padding-left: 0.4rem;
+}
+
+form button {
+  border: none;
+  border-radius: 7px;
+
+  background: #158bcc;
+  color: white;
+
+  height: 5rem;
+  width: 20rem;
+
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 3rem;
+}
+
+/* Desktop version */
+
+@media (min-width: 768px) {
+  .register h1 {
+    margin-bottom: 6rem;
+    padding-top: 3rem;
+
+    font-size: 5rem;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    margin: 0 35rem;
+    padding: 2.8rem 0 24rem;
+  }
+  .buttons {
+    position: absolute;
+
+    margin-top: 38rem;
+  }
+  form label {
+    font-size: 2rem;
+  }
+  .inputs {
+    width: 40rem;
+    height: 4rem;
+
+    margin-bottom: 2.5rem;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.8rem;
+  }
+  .left-inputs {
+    margin-right: 6rem;
+    padding-top: 6rem;
+  }
+  .right-inputs {
+    margin-left: 6rem;
+    padding-top: 6rem;
+  }
+}
