@@ -3,7 +3,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import '../styles/login.css';
+import '../styles/pages/login.css';
 
 function Login() {
   return (

@@ -13,17 +13,19 @@ div#page-landing div.landing {
 
 div#page-landing div.landing h1 {
   font-weight: 700;
-  font-size: 3.4rem;
-  line-height: 4rem;
+  font-size: 6.2rem;
+  line-height: 8rem;
 
-  padding-bottom: 2.4rem;
+  padding-bottom: 16rem;
+  padding-top: 4rem;
 }
 
 div#page-landing div.landing h3 {
   font-weight: 600;
-  line-height: 2rem;
-  font-size: 1.4rem;
-  padding: 0 1.2rem;
+  font-size: 2.6rem;
+  line-height: 4rem;
+    
+  padding: 0 26rem;
 }
 
 div#page-landing div.landing h3.text-one {
@@ -31,11 +33,13 @@ div#page-landing div.landing h3.text-one {
 }
 
 div#page-landing div.landing div.buttons {
-  margin-top: 4rem;
+  margin-top: 10rem;
 }
 
 div#page-landing div.landing div.buttons button.register {
-  margin-right: 2rem;
+  height: 8rem;
+  width: 28rem;
+  margin-right: 10rem;
 
   cursor: pointer;
   background: white;
@@ -43,9 +47,6 @@ div#page-landing div.landing div.buttons button.register {
 
   border-radius: 7px;
   border: none;
-
-  height: 4rem;
-  width: 14rem;
 
   transition: background-color 0.8s;
 }
@@ -56,7 +57,9 @@ div#page-landing div.landing div.buttons button.register:hover {
 }
 
 div#page-landing div.landing div.buttons button.login {
-  margin-left: 2rem;
+  height: 8rem;
+  width: 28rem;
+  margin-left: 10rem;
 
   cursor: pointer;
   background: #158bcc;
@@ -65,49 +68,10 @@ div#page-landing div.landing div.buttons button.login {
   border-radius: 7px;
   border: none;
 
-  height: 4rem;
-  width: 14rem;
-
   transition: background-color 0.8s;
 }
 
 div#page-landing div.landing div.buttons button.login:hover {
   background: black;
   color: white;
-}
-
-/* Desktop version */
-
-@media (min-width: 768px) {
-  div#page-landing div.landing h1 {
-    font-size: 6.2rem;
-    line-height: 8rem;
-
-    padding-bottom: 16rem;
-    padding-top: 4rem;
-  }
-
-  div#page-landing div.landing h3 {
-    font-size: 2.6rem;
-    padding: 0 26rem;
-    line-height: 4rem;
-  }
-
-  div#page-landing div.landing div.buttons {
-    margin-top: 70rem;
-  }
-
-  div#page-landing div.landing div.buttons button.register {
-    height: 8rem;
-    width: 28rem;
-
-    margin-right: 10rem;
-  }
-
-  div#page-landing div.landing div.buttons button.login {
-    height: 8rem;
-    width: 28rem;
-
-    margin-left: 10rem;
-  }
 }

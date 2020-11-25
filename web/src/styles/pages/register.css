@@ -1,0 +1,78 @@
+#page-register div.register h1 {
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 500;
+
+  margin-bottom: 6rem;
+  padding-top: 3rem;
+}
+
+#page-register div.register div.box {
+  margin: 0 35rem;
+  padding: 1rem 0 15rem;
+  
+  background: #d8d8d8;
+
+  display: flex;
+  flex-direction: column;
+    
+  align-items: center;
+  justify-content: center;
+}
+
+#page-register div.register div.box form label {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#page-register div.register div.box form input {
+  width: 40rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+
+  background: #ffffff;
+  border: none;
+  border-radius: 7px;
+}
+
+::-webkit-input-placeholder {
+  color: #007aff;
+  font-weight: 500;
+  padding-left: 0.4rem;
+}
+
+#page-register div.register div.box form div.left-inputs {
+  position: absolute;
+  margin-left: -50rem;
+}
+
+#page-register div.register div.box form .right-inputs {
+  margin-left: 50rem;
+}
+
+::-webkit-input-placeholder {
+  font-size: 1.8rem;
+}
+
+#page-register div.register form button {
+  border: none;
+  border-radius: 7px;
+
+  cursor: pointer;
+  background: #158bcc;
+  color: white;
+
+  height: 5rem;
+  width: 20rem;
+
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#page-register div.register div.box div.buttons {
+  margin-top: 38rem;
+
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
