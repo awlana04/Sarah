@@ -37,7 +37,7 @@ function Register() {
               <input type="password" placeholder="Digite a senha novamente"/><br />
             </div>
 
-            <div className="buttons">
+            <div className="button">
               <button type="submit">REALIZAR CADASTRO</button>
             </div>
 

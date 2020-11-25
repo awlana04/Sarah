@@ -9,7 +9,7 @@
 
 #page-register div.register div.box {
   margin: 0 35rem;
-  padding: 1rem 0 15rem;
+  padding: 5rem 0 15rem;
   
   background: #d8d8d8;
 
@@ -43,7 +43,7 @@
 
 #page-register div.register div.box form div.left-inputs {
   position: absolute;
-  margin-left: -50rem;
+  margin-left: 0rem;
 }
 
 #page-register div.register div.box form .right-inputs {
@@ -62,15 +62,22 @@
   background: #158bcc;
   color: white;
 
-  height: 5rem;
   width: 20rem;
+  height: 5rem;
 
   font-weight: 500;
   font-size: 1.5rem;
+
+  transition: background-color 0.8s;
 }
 
-#page-register div.register div.box div.buttons {
-  margin-top: 38rem;
+#page-register div.register div.box button:hover {
+  background: black;
+}
+
+#page-register div.register div.box div.button {
+  margin-top: 5rem;
+  margin-left: 35rem;
 
   display: flex;
   position: absolute;

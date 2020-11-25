@@ -14,9 +14,9 @@ function Login() {
         <h1>Login</h1>
         
         <form>
-          <input className="inputs email" type="email" placeholder="Email" />
-          <input className="inputs password" type="password" placeholder="Senha" />
-          <button className="btn"type="submit" name="login">LOGIN</button>
+          <input className="email" type="email" placeholder="Email" />
+          <input className="password" type="password" placeholder="Senha" />
+          <button className="button"type="submit" name="login">LOGIN</button>
         </form>
       </div>
 
