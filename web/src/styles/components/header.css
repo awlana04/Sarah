@@ -1,46 +1,48 @@
 header {
-  background: white;
-  
   height: clamp(2rem, 6rem, 8rem);
-
+  
+  background: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  
   display: flex;
-
   align-items: center;
   justify-content: space-between;
-
-  font-weight: 600;
-  font-size: 1.4rem;
 }
 
 .logo-upside {
-  padding-left: 3.5rem;
+  padding-left: 1.0rem;
 
   cursor: pointer;
 }
 
 .logo-upside-sarah {
-  max-width: 8rem;
-  max-height: 8rem;
+  max-width: 5rem;
+  max-height: 5rem;
 }
 
 header p {
-  padding-right: 2rem;
+  padding-right: 7.5rem;
 }
 
 
 /* Desktop version */
-
 @media (min-width: 768px) {
   header {
-    height: clamp(8rem, 10rem, 12rem);
+    height: clamp(4rem, 6rem, 10rem);
+
     justify-content: center;
   }
+
   header p {
+    font-size: 1.5rem;
     font-weight: 700;
-    font-size: 2rem;
   }
+
   .logo-upside {
+    padding-left: 2.0rem;
+
     position: absolute;
-    left: 5rem;
+    left: 3.5rem;
   }
 }
