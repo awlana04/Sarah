@@ -23,12 +23,12 @@ function Register() {
               <input type="type" placeholder="Matrícula"/><br />
               
               <label>INSTITUIÇÃO ONDE ATUA</label><br /><br />
-              <input type="text" placeholder="Sigla Da Instituição"/><br />
+              <input type="text" placeholder="Sigla da Insituição"/><br />
             </div>
 
             <div className="right-inputs">
               <label>EMAIL</label><br /><br />
-              <input type="email" placeholder="Email Clínico"/><br />
+              <input type="email" placeholder="O email da clínica"/><br />
 
               <label>SENHA</label><br /><br />
               <input type="password" placeholder="Senha"/><br />
@@ -40,8 +40,7 @@ function Register() {
             <div className="button">
               <button type="submit">REALIZAR CADASTRO</button>
             </div>
-
-           </form>
+          </form>
         </div>
       </div>
 

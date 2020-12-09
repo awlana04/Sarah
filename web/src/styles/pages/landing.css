@@ -1,76 +1,71 @@
 #page-landing div.landing {
+  text-align: center;
+
   display: flex;
   flex-direction: column;
 
-  text-align: center;
   align-items: center;
   justify-content: center;
 }
 
-div#page-landing div.landing h1 {
+#page-landing div.landing h1 {
   font-weight: 700;
-  font-size: 3.0rem;
+  font-size: 3rem;
   line-height: 4rem;
 
   padding-bottom: 3rem;
   padding-top: 2rem;
 }
 
-div#page-landing div.landing h3 {
+#page-landing div.landing h3 {
   font-weight: 600;
   font-size: 1.7rem;
   line-height: 2.5rem;
 }
 
-div#page-landing div.landing h3.text-one {
+#page-landing div.landing h3.text-one {
   margin-bottom: 2.5rem;
 }
 
-div#page-landing div.landing div.buttons {
+#page-landing div.landing div.buttons {
   margin-top: 4rem;
 }
 
-div#page-landing div.landing div.buttons button.register {
+#page-landing div.landing div.buttons button {
+  width: 16rem;
   height: 5rem;
-  width: 13rem;
-  margin-right: 2rem;
+  margin-bottom: 25px;
 
   cursor: pointer;
+  border-radius: 7px;
+  border: none;
+  
+  transition: 1.5s;
+}
+
+#page-landing div.landing div.buttons button.register {
+  margin-right: 1rem;
+
   background: white;
   color: black;
-
-  border-radius: 7px;
-  border: none;
-
-  transition: 1.5s;
 }
 
-div#page-landing div.landing div.buttons button.register:hover {
-  background: black;
-  color: white;
-}
 
-div#page-landing div.landing div.buttons button.login {
-  height: 5rem;
-  width: 13rem;
-  margin-left: 2rem;
+#page-landing div.landing div.buttons button.login {
+  margin-left: 1rem;
 
-  cursor: pointer;
   background: #158bcc;
   color: white;
-
-  border-radius: 7px;
-  border: none;
-
-  transition: 1.5s;
 }
 
-div#page-landing div.landing div.buttons button.login:hover {
-  background: black;
-}
+#page-landing div.landing div.buttons button.register:hover,
+  #page-landing div.landing div.buttons button.login:hover {
+    background: black;
+  }
 
+/* Desktop version */
 @media(min-width: 768px) {
-  div#page-landing div.landing h1 {
+  #page-landing div.landing h1 {
     font-size: 4.0rem;
     line-height: 5rem;
   
@@ -78,51 +73,32 @@ div#page-landing div.landing div.buttons button.login:hover {
     padding-top: 3rem;
   }
 
-  div#page-landing div.landing h3 {
-    font-weight: 600;
+  #page-landing div.landing h3 {
     font-size: 1.5rem;
-    line-height: 2.5rem;
   }
   
-  div#page-landing div.landing h3.text-one {
+  #page-landing div.landing h3.text-one {
     margin-bottom: 2rem;
   }
   
-  div#page-landing div.landing div.buttons {
-    margin-top: 5rem;
-  }
-
-  div#page-landing div.landing div.buttons {
-    margin-top: 5rem;
+  #page-landing div.landing div.buttons button {
+    width: 20rem;
+    height: 6rem;
+    
+    margin-top: 2rem;
+    
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+  
+    transition: 1.5s;
   }
   
-  div#page-landing div.landing div.buttons button.register {
-    height: 6rem;
-    width: 20rem;
+  #page-landing div.landing div.buttons button.register {
     margin-right: 10rem;
-  
-    cursor: pointer;
-    background: white;
-    color: black;
-  
-    border-radius: 7px;
-    border: none;
-  
-    transition: 1.5s;
   }
 
-  div#page-landing div.landing div.buttons button.login {
-    height: 6rem;
-    width: 20rem;
+  #page-landing div.landing div.buttons button.login {
     margin-left: 10rem;
-  
-    cursor: pointer;
-    background: #158bcc;
-    color: white;
-  
-    border-radius: 7px;
-    border: none;
-  
-    transition: 1.5s;
   }
 }

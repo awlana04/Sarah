@@ -26,9 +26,9 @@ function Landing() {
             <button className="login">JÁ TENHO CONTA</button>
           </Link>
         </div>
-
-        <Footer />
       </div>
+      
+      <Footer />
     </div>
   );
 };

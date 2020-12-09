@@ -1,16 +1,18 @@
 #page-register div.register h1 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  
   text-align: center;
-  font-size: 5rem;
+  font-size: 2.5rem;
   font-weight: 500;
-
-  margin-bottom: 6rem;
-  padding-top: 3rem;
 }
 
 #page-register div.register div.box {
-  margin: 0 35rem;
-  padding: 5rem 0 15rem;
-  
+  margin: 0 2rem;
+  margin-bottom: 25px;
+  padding: 2rem 0 10rem;
+
+  font-size: 1.2rem;
   background: #d8d8d8;
 
   display: flex;
@@ -22,64 +24,117 @@
 
 #page-register div.register div.box form label {
   font-weight: 600;
-  font-size: 2rem;
 }
 
 #page-register div.register div.box form input {
-  width: 40rem;
-  height: 4rem;
+  width: 25rem;
+  height: 3rem;
   margin-bottom: 2rem;
 
   background: #ffffff;
   border: none;
   border-radius: 7px;
+  border-bottom: 0.2rem solid #000;
 }
 
 ::-webkit-input-placeholder {
+  padding-left: 0.4rem;
+
   color: #007aff;
   font-weight: 500;
-  padding-left: 0.4rem;
 }
 
 #page-register div.register div.box form div.left-inputs {
-  position: absolute;
-  margin-left: 0rem;
+  margin-bottom: 4rem;
 }
 
-#page-register div.register div.box form .right-inputs {
-  margin-left: 50rem;
-}
-
-::-webkit-input-placeholder {
-  font-size: 1.8rem;
-}
-
-#page-register div.register form button {
-  border: none;
-  border-radius: 7px;
+#page-register div.register div.box form div.button button {
+  width: 17rem;
+  height: 5rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
 
   cursor: pointer;
   background: #158bcc;
   color: white;
-
-  width: 20rem;
-  height: 5rem;
-
   font-weight: 500;
-  font-size: 1.5rem;
+  
+  border: none;
+  border-radius: 7px;
 
-  transition: background-color 0.8s;
+  transition: 1.5s;
 }
 
-#page-register div.register div.box button:hover {
+#page-register div.register div.box form div.button {
+  position: absolute;
+  display: flex;
+
+  justify-content: center;
+}
+
+#page-register div.register div.box form div.button button:hover {
   background: black;
 }
 
-#page-register div.register div.box div.button {
-  margin-top: 5rem;
-  margin-left: 35rem;
-
-  display: flex;
-  position: absolute;
-  justify-content: center;
+/* Desktop version */
+@media (min-width: 768px) {
+  #page-register div.register h1 {
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    
+    font-size: 3rem;
+  }
+  
+  #page-register div.register div.box {
+    margin: 0 10rem;
+    padding: 5rem 0 10rem;
+  }
+  
+  #page-register div.register div.box form input {
+    width: 45rem;
+    height: 4rem;
+    margin-bottom: 2rem;
+  
+    background: #ffffff;
+    border: none;
+    border-radius: 7px;
+    border-bottom: 0.2rem solid #000;
+  }
+  
+  #page-register div.register div.box form div.left-inputs {
+    margin-left: 0rem;
+    position: absolute;
+  }
+  
+  #page-register div.register div.box form .right-inputs {
+    margin-left: 60rem;
+  }
+  
+  #page-register div.register div.box form div.button button {
+    width: 25rem;
+    height: 5rem;
+    margin-top: 2rem;
+    margin-left: 40rem;
+  
+    cursor: pointer;
+    background: #158bcc;
+    color: white;
+    font-weight: 500;
+    
+    border: none;
+    border-radius: 7px;
+  
+    transition: 1.5s;
+  }
+  
+  #page-register div.register div.box form div.button {
+    position: absolute;
+    display: flex;
+  
+    justify-content: center;
+  }
+  
+  #page-register div.register div.box form div.button button:hover {
+    background: black;
+  }
 }

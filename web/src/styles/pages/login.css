@@ -1,86 +1,76 @@
 #page-login div.login {
-  background: linear-gradient(to right, #e6f7fe 0%, #dcf7c5 100%);
-
   text-align: center;
 }
 
 #page-login div.login h1 {
-  padding-top: 16rem;
+  padding-top: 2rem;
 
+  font-size: 4rem;
   font-weight: 700;
-  font-size: 7rem;
 }
 
 #page-login div.login form {
+  margin-top: 10rem;
+
   display: flex;
   flex-direction: column;
 
   justify-content: center;
   align-items: center;
-
-  margin-top: 12rem;
 }
 
 #page-login div.login form input {
-  background: #ffffff;
+  width: 25rem;
+  height: 4rem;
+  margin-bottom: 2rem;
 
+  background: #ffffff;
   border: none;
   border-radius: 7px;
   border-bottom: 0.2rem solid #000;
-
-  width: 26rem;
-  height: 3.5rem;
-
-  margin-bottom: 2rem;
 }
 
-#page-login div.login form input.email, 
-#page-login div.login form input.password {
-  width: 40rem;
-  height: 4rem;
-} 
-
 ::-webkit-input-placeholder {
+  padding-left: 0.8rem;
+  
   color: #007aff;
   font-size: 1.6rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  padding-left: 0.8rem;
 }
 
 #page-login div.login form .button {
-  margin-top: 6rem;
-
-  font-size: 1.6rem;
-  font-weight: 600;
-
   width: 22rem;
   height: 4.5rem;
+  margin-top: 6rem;
 
   cursor: pointer;
   background: #158bcc;
   color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
 
   border: none;
   border-radius: 7px;
   
-  transition: background-color 0.8s;
+  transition: 1.5s;
 }
 
 #page-login div.login form .button:hover {
   background: black;
 }
 
-/* Desktop version */
+#page-login Footer {
+  bottom: 0;
+}
 
+/* Desktop version */
 @media (min-width: 768px) {
- .email, .password {
-    
+  #page-login div.login h1 {
+    padding-top: 4rem;
   }
-  ::-webkit-input-placeholder {
-    
-  }
-  .button {
-    
+  
+  #page-login div.login form input {
+    width: 40rem;
   }
 }

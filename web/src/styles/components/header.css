@@ -10,13 +10,13 @@ header {
   justify-content: space-between;
 }
 
-.logo-upside {
+header Link.logo-upside {
   padding-left: 1.0rem;
 
   cursor: pointer;
 }
 
-.logo-upside-sarah {
+header .logo-upside-sarah {
   max-width: 5rem;
   max-height: 5rem;
 }
@@ -24,7 +24,6 @@ header {
 header p {
   padding-right: 7.5rem;
 }
-
 
 /* Desktop version */
 @media (min-width: 768px) {
@@ -34,15 +33,15 @@ header p {
     justify-content: center;
   }
 
+  .logo-upside {
+    padding-left: 2.0rem;
+    
+    position: absolute;
+    left: 3.5rem;
+  }
+  
   header p {
     font-size: 1.5rem;
     font-weight: 700;
-  }
-
-  .logo-upside {
-    padding-left: 2.0rem;
-
-    position: absolute;
-    left: 3.5rem;
   }
 }
